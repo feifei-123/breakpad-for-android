@@ -5,7 +5,7 @@ LOCAL_PATH := $(ROOT_PATH)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE    := breakpad
-LOCAL_SRC_FILES := native_breakpad.cpp
+LOCAL_SRC_FILES := breakpad.cpp
 LOCAL_LDLIBS := -llog
 LOCAL_STATIC_LIBRARIES += breakpad_client
 

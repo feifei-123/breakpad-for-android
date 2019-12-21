@@ -17,5 +17,6 @@
         android:layout_height="wrap_content"
         android:text="test ndk crash"
         android:textSize="14sp"
+        android:onClick="onClick"
         android:layout_centerInParent="true"/>
 </RelativeLayout>
